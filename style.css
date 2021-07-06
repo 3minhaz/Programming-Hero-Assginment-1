@@ -1,0 +1,101 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+h1 {
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+section{
+    display: flex;
+    margin-bottom: 5%;
+}
+.half-width-one{
+    width: 50%;
+    margin:0px auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    
+}
+.half-width-one p{
+    padding-bottom: 4%;
+}
+.half-width-two{
+    width: 50%;
+    margin-right: 10%;
+}
+.half-width-two img {
+    width: 100%; 
+    position: relative; 
+}
+.half-width-two{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding: 5px;
+}
+
+.half-width-two p{
+    padding-bottom: 10%;
+}
+.half-width-three img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 5%;         
+}
+.section-two{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+.orange-color{
+    color: orange; 
+}
+.anchor-color{
+    margin-top: 10%;
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 8px 25px;
+    border-radius: 15px;
+    color: white;
+}
+.my-recipie {
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+}
+.div-width-recipie{
+    display: flex;
+   margin-left: 3%;
+   margin-right: 2%;
+}
+.div-recipie-title{
+    margin-top: 10px;
+    border: 1px solid rgb(241, 234, 234);
+    /* box-shadow: 4px 4px 5px gray; */
+    box-shadow: 0px 0px 10px 5px grey;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 50%;
+    border-radius: 15px;
+    padding: 10px;
+}
+.div-recipie-title img{
+    border-radius: 12px;
+}
+.div-recipie-title img{
+    height: 40%;
+    width: 100%;
+}
+footer {
+    text-align: center;
+    color : grey;
+    background-color: black;
+}
